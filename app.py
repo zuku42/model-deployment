@@ -11,7 +11,7 @@ app = Flask('draft_prediction')
 @app.route('/predict', methods=['POST'])
 def get_prediction():
     # Load pickled model file
-    model = pickle.load(open('models/binary_model.sav', 'rb'))
+    model = pickle.load(open('binary_model.sav', 'rb'))
     # Get player data
     player = pd.DataFrame(request.get_json())
     # Predict the probability of getting drafted using the model
