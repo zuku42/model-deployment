@@ -1,6 +1,6 @@
 # model-deployment
 
-Flask app serving predicted probability of a given basketball player getting drafted by an NBA team based on their performance in their final season in the NCAA.
+Flask app running a machine learning model predicting the probability of a given basketball player getting drafted by an NBA team, based on their performance in their final season in the NCAA.
 
 Files in this repository:
 - train.py - training of the estimator on a transformed dataset.
